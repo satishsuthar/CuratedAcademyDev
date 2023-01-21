@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 
 namespace CuratedAcademy.WebAPI
 {
@@ -9,7 +10,11 @@ namespace CuratedAcademy.WebAPI
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers(option =>
+            {
+                option.ReturnHttpNotAcceptable = true;  // pop up error msg, if failed to provide the requested format.
+            }).AddXmlDataContractSerializerFormatters(); // supporting the xml formate as well with Json.
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -23,12 +28,19 @@ namespace CuratedAcademy.WebAPI
                 app.UseSwaggerUI();
             }
 
+
+
             app.UseHttpsRedirection();
+
+            app.UseRouting();
 
             app.UseAuthorization();
 
+            app.UseEndpoints(endpoints =>{ endpoints.MapControllers();});
 
-            app.MapControllers();
+
+
+
 
             app.Run();
         }

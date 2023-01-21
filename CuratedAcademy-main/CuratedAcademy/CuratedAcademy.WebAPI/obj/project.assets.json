@@ -548,26 +548,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\satis\\.nuget\\packages\\": {}
+    "/Users/vineetrai/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\CuratedAcademy\\code\\CuratedAcademy\\CuratedAcademy.WebAPI\\CuratedAcademy.WebAPI.csproj",
+      "projectUniqueName": "/Users/vineetrai/Documents/WebApi(Project)/CuratedAcademy-main/CuratedAcademy/CuratedAcademy.WebAPI/CuratedAcademy.WebAPI.csproj",
       "projectName": "CuratedAcademy.WebAPI",
-      "projectPath": "E:\\Projects\\CuratedAcademy\\code\\CuratedAcademy\\CuratedAcademy.WebAPI\\CuratedAcademy.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\satis\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\CuratedAcademy\\code\\CuratedAcademy\\CuratedAcademy.WebAPI\\obj\\",
+      "projectPath": "/Users/vineetrai/Documents/WebApi(Project)/CuratedAcademy-main/CuratedAcademy/CuratedAcademy.WebAPI/CuratedAcademy.WebAPI.csproj",
+      "packagesPath": "/Users/vineetrai/.nuget/packages/",
+      "outputPath": "/Users/vineetrai/Documents/WebApi(Project)/CuratedAcademy-main/CuratedAcademy/CuratedAcademy.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\satis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/vineetrai/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -618,7 +616,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

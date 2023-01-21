@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "g7fiMgeJi6roGQTssW4yQgKrCWBjn/30bgBxkybTkM4=",
+  "Source": "CuratedAcademy.WebAPI",
+  "BasePath": "_content/CuratedAcademy.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
